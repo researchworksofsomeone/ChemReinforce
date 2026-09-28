@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": {
+    "models/mlp_surrogate.pt": "PASS",
+    "models/pinn_surrogate.pt": "PASS",
+    "models/scalers.pt": "PASS",
+    "logs/evaluation_metrics.json": "PASS",
+    "world_model_dummy": "PASS"
+  }
+}

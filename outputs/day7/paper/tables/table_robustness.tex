@@ -1,0 +1,34 @@
+\begin{tabular}{llrrrr}
+\toprule
+method & scenario & reward\_score & iae\_score & constraint\_score & overall\_robustness\_score \\
+\midrule
+MF-SAC & nominal\_fixed & 1.000 & 1.000 & 1.000 & 1.000 \\
+MLP-Dyna-SAC & nominal\_fixed & 0.962 & 0.962 & 1.000 & 0.969 \\
+PI-Dyna-SAC & nominal\_fixed & 0.000 & 0.000 & 1.000 & 0.200 \\
+PID & nominal\_fixed & 0.055 & 0.055 & 1.000 & 0.244 \\
+MF-SAC & setpoint\_steps & 1.000 & 1.000 & 1.000 & 1.000 \\
+MLP-Dyna-SAC & setpoint\_steps & 0.998 & 0.972 & 1.000 & 0.991 \\
+PI-Dyna-SAC & setpoint\_steps & 0.936 & 0.000 & 1.000 & 0.668 \\
+PID & setpoint\_steps & 0.000 & 0.450 & 0.000 & 0.135 \\
+MF-SAC & feed\_ca\_disturbance & 1.000 & 1.000 & 1.000 & 1.000 \\
+MLP-Dyna-SAC & feed\_ca\_disturbance & 0.063 & 0.063 & 1.000 & 0.250 \\
+PI-Dyna-SAC & feed\_ca\_disturbance & 0.000 & 0.000 & 1.000 & 0.200 \\
+PID & feed\_ca\_disturbance & 0.086 & 0.086 & 1.000 & 0.269 \\
+MF-SAC & feed\_temp\_disturbance & 0.986 & 0.986 & 1.000 & 0.988 \\
+MLP-Dyna-SAC & feed\_temp\_disturbance & 1.000 & 1.000 & 1.000 & 1.000 \\
+PI-Dyna-SAC & feed\_temp\_disturbance & 0.119 & 0.119 & 1.000 & 0.295 \\
+PID & feed\_temp\_disturbance & 0.000 & 0.000 & 1.000 & 0.200 \\
+MF-SAC & sensor\_noise & 1.000 & 1.000 & 1.000 & 1.000 \\
+MLP-Dyna-SAC & sensor\_noise & 0.961 & 0.956 & 1.000 & 0.967 \\
+PI-Dyna-SAC & sensor\_noise & 0.000 & 0.000 & 1.000 & 0.200 \\
+PID & sensor\_noise & 0.072 & 0.073 & 1.000 & 0.258 \\
+MF-SAC & actuator\_delay & 1.000 & 1.000 & 1.000 & 1.000 \\
+MLP-Dyna-SAC & actuator\_delay & 0.996 & 0.766 & 1.000 & 0.928 \\
+PI-Dyna-SAC & actuator\_delay & 0.792 & 0.560 & 0.796 & 0.723 \\
+PID & actuator\_delay & 0.000 & 0.000 & 0.000 & 0.000 \\
+MF-SAC & actuator\_rate\_limit & 0.431 & 0.508 & 0.429 & 0.454 \\
+MLP-Dyna-SAC & actuator\_rate\_limit & 1.000 & 1.000 & 1.000 & 1.000 \\
+PI-Dyna-SAC & actuator\_rate\_limit & 0.732 & 0.561 & 0.735 & 0.681 \\
+PID & actuator\_rate\_limit & 0.000 & 0.000 & 0.000 & 0.000 \\
+\bottomrule
+\end{tabular}

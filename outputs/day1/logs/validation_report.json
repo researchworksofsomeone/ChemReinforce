@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": {
+    "check_env": "PASS",
+    "dataset_size": "PASS",
+    "dataset_nans": "PASS",
+    "gpu_batched_time": "0.0009s on cpu"
+  }
+}

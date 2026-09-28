@@ -1,0 +1,10 @@
+torch
+numpy
+pandas
+matplotlib
+seaborn
+gymnasium
+stable-baselines3
+pyarrow
+scipy
+kaggle
